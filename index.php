@@ -12,7 +12,9 @@ require_once BASE_PATH . '/components/templates/nav.component.php';
 head('Product List');
 navHeader();
 ?>
-
+<body>
+    
+</body>
 
 
 <?php
