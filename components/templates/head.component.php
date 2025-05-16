@@ -8,9 +8,8 @@ function head($pageTitle)
         <head>
             <meta charset="utf-8">
             <title><?= htmlEscape($pageTitle ?? 'My Shop') ?></title>
+            <link  rel ="stylesheet" href="assets/css/styles.css">
 
-            <!-- Libraries -->
-            <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
         </head>
 
         <body>
