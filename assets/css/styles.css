@@ -20,7 +20,7 @@ body {
     display: flex;
     flex-direction: column;
     color: white;
-    gap: 25px
+    gap: 25px;
 
 }
 .landing-message h1{
@@ -30,6 +30,17 @@ body {
 .landing-message h2{
     font-size: 1rem;
 }
+
+.landing-message a{
+
+  
+    background-color: white;
+    padding:15px;
+    border-radius:16px;
+    color:#b71919;
+    transition: 0.8s;
+}
+
 
 nav ul{
   list-style: none;
@@ -47,7 +58,6 @@ span {
     color: #b71919;
 }
 
-#nav
 nav ul li { 
   margin: 0 50px; 
 }
@@ -66,7 +76,6 @@ nav ul li a:hover, footer a:hover {
 }
 
 
-#footer
 footer {
     position: fixed;
     bottom: 0;
