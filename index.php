@@ -14,9 +14,7 @@ head('Product List');
 navHeader($navList);
 ?>
 
-<section class="grid grid-cols-3">
-    <?php displayCardForm($productList); ?>
-</section>
+
 
 <?php
 footer();
