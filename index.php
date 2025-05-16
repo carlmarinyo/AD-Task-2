@@ -13,9 +13,12 @@ head('Product List');
 navHeader();
 ?>
 <body>
-    
+        <div class="landing-message">
+            <h1>Welcome to Car Gallery!</h1>
+            <h2>Discover popular car brands with images and descriptions.</h2>
+            <a href="/pages/gallery/index.php">Check Gallery</a>
+    </div>
 </body>
-
 
 <?php
 footer();
