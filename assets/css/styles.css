@@ -39,8 +39,15 @@ body {
     border-radius:16px;
     color:#b71919;
     transition: 0.8s;
+    font-weight: bold;
+    display:inline-block
 }
 
+.landing-message a:hover {
+    transform: scaleZ(1.2);
+    background-color: #4a0a0a;
+    color: #9b8c8c;
+}
 
 nav ul{
   list-style: none;
