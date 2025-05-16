@@ -3,6 +3,7 @@
     padding: 0;
     text-decoration: none;
     box-sizing: border-box;
+    color:#dddddd;
 }
 body {
     height: 80vh;
@@ -19,25 +20,23 @@ body {
     justify-content: center;
     display: flex;
     flex-direction: column;
-    color: white;
+    
     gap: 25px;
 
 }
 .landing-message h1{
     font-size: 3rem;
-    color: white;
+    
 }
 .landing-message h2{
     font-size: 1rem;
 }
 
 .landing-message a{
-
-  
-    background-color: white;
+    color: #ff4c4c ;
+    background-color: #ffffff;
     padding:15px;
     border-radius:16px;
-    color:#b71919;
     transition: 0.8s;
     font-weight: bold;
     display:inline-block
@@ -46,7 +45,7 @@ body {
 .landing-message a:hover {
     transform: scaleZ(1.2);
     background-color: #4a0a0a;
-    color: #9b8c8c;
+    color: #ffffff;
 }
 
 nav ul{
@@ -55,7 +54,7 @@ nav ul{
   justify-content: center; /* centers the items horizontally */
   padding: 20px;
   margin: 0;
-  background-color: white;
+  background-color: #1a1a1a;
 
     
     
@@ -87,10 +86,10 @@ footer {
     position: fixed;
     bottom: 0;
     justify-items: center;
-    background-color: white;
+    background-color: #1a1a1a;
     width: 100%;
     padding: 10px;
-    color: #4a0a0a;
+    color: #dddddd;
 }
 footer div {
     display: flex;
