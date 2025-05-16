@@ -12,7 +12,7 @@ body {
 .landing-message {
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.2)), url(/assets/img/gt3r.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.05)), url(/assets/img/gt3r.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -71,12 +71,12 @@ nav ul li {
 nav ul li a, footer a {
     display: inline-block;
     font-weight: bold;
-    color: #b71919;
+    color: #a32a2a;
     transition: 0.5s;
 }
 
 nav ul li a:hover, footer a:hover {
-    color: #072708;
+    color: #ff0404;
     transform: scale(1.3);
     
 }
