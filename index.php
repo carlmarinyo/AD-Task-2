@@ -14,8 +14,8 @@ navHeader();
 ?>
 <body>
         <div class="landing-message">
-            <h1>Welcome to  <span>Car Gallery</span>!</h1>
-            <h2>Discover popular car brands with <span>images and descriptions.</span></h2>
+            <h1>Welcome to  <span>Car Gallery!</span></h1>
+            <h2>Discover popular car brands with images and descriptions.</h2>
             <a href="/pages/gallery/index.php" class=".gallery-button">Check Gallery</a>
     </div>
 </body>
