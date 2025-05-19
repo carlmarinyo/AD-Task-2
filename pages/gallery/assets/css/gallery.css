@@ -19,7 +19,7 @@
 
 .card-img {
     width: 100%;
-    height: auto;
+    min-height: 150px;
     max-height: 150px;
     object-fit: contain;
     margin-bottom: 1rem;
